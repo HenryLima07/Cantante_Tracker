@@ -1,4 +1,4 @@
-package com.test.app_cantante.UI.SingerDetails
+package com.test.app_cantante.ui.singerDetail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import com.test.app_cantante.R
-import com.test.app_cantante.UI.viewmodel.SingerViewModel
-import com.test.app_cantante.databinding.FragmentHomeBinding
+import com.test.app_cantante.ui.viewModel.SingerViewModel
 import com.test.app_cantante.databinding.FragmentSingerDetailBinding
 
 /**

@@ -1,8 +1,8 @@
-package com.test.app_cantante.Data.Adapter
+package com.test.app_cantante.data.Adapter
 
 import android.annotation.SuppressLint
 import androidx.recyclerview.widget.RecyclerView
-import com.test.app_cantante.Data.Model.SingerModel
+import com.test.app_cantante.data.Model.SingerModel
 import com.test.app_cantante.databinding.FragmentSingerItemBinding
 
 class SingerRecyclerViewHolder(private val binding: FragmentSingerItemBinding): RecyclerView.ViewHolder(binding.root) {

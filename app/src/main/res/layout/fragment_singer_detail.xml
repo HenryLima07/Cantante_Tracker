@@ -7,14 +7,14 @@
 
         <variable
             name="viewmodel"
-            type="com.test.app_cantante.UI.viewmodel.SingerViewModel" />
+            type="com.test.app_cantante.ui.viewModel.SingerViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/primary"
-        tools:context=".UI.SingerDetails.SingerDetailFragment">
+        tools:context=".ui.singerDetail.SingerDetailFragment">
 
 
         <ImageView

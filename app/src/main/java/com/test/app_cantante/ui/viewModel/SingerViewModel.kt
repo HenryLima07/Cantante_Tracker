@@ -1,12 +1,12 @@
-package com.test.app_cantante.UI.viewmodel
+package com.test.app_cantante.ui.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.test.app_cantante.Data.Model.SingerModel
-import com.test.app_cantante.Repository.Repository
+import com.test.app_cantante.data.Model.SingerModel
+import com.test.app_cantante.repository.Repository
 import com.test.app_cantante.SingerReviewerApp
 
 class SingerViewModel(private val singerRepository: Repository): ViewModel() {

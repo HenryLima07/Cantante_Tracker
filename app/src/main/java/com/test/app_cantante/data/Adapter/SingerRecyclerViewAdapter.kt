@@ -1,9 +1,9 @@
-package com.test.app_cantante.Data.Adapter
+package com.test.app_cantante.data.Adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.test.app_cantante.Data.Model.SingerModel
+import com.test.app_cantante.data.Model.SingerModel
 import com.test.app_cantante.databinding.FragmentSingerItemBinding
 
 class SingerRecyclerViewAdapter(

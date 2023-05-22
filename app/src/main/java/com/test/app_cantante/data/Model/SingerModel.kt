@@ -1,4 +1,4 @@
-package com.test.app_cantante.Data.Model
+package com.test.app_cantante.data.Model
 
 data class SingerModel(
     val name: String,

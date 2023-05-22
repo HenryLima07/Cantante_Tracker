@@ -1,4 +1,4 @@
-package com.test.app_cantante.UI.NewSinger
+package com.test.app_cantante.ui.newSinger
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.test.app_cantante.R
-import com.test.app_cantante.UI.viewmodel.SingerViewModel
-import com.test.app_cantante.databinding.FragmentHomeBinding
+import com.test.app_cantante.ui.viewModel.SingerViewModel
 import com.test.app_cantante.databinding.FragmentNewSingerBinding
 
 /**

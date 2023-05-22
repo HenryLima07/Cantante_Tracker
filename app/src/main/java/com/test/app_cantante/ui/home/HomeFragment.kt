@@ -1,4 +1,4 @@
-package com.test.app_cantante.UI.Home
+package com.test.app_cantante.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,10 +11,10 @@ import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.test.app_cantante.Data.Adapter.SingerRecyclerViewAdapter
-import com.test.app_cantante.Data.Model.SingerModel
+import com.test.app_cantante.data.Adapter.SingerRecyclerViewAdapter
+import com.test.app_cantante.data.Model.SingerModel
 import com.test.app_cantante.R
-import com.test.app_cantante.UI.viewmodel.SingerViewModel
+import com.test.app_cantante.ui.viewModel.SingerViewModel
 import com.test.app_cantante.databinding.FragmentHomeBinding
 
 /**
