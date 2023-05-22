@@ -5,13 +5,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import com.test.app_cantante.R
+import com.test.app_cantante.UI.viewmodel.SingerViewModel
+import com.test.app_cantante.databinding.FragmentHomeBinding
 
 /**
  This fragment works as home view from the application
  */
 class HomeFragment : Fragment() {
+    private lateinit var binding: FragmentHomeBinding
 
+    private val singerViewModel: SingerViewModel by activityViewModels{
+        SingerViewModel.Factory
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
